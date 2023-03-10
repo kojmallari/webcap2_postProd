@@ -1,0 +1,12 @@
+.bg-image{
+    height: 100%;
+    /**The background image used */
+    background-image: url('/public/img/home.jpg');
+
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
